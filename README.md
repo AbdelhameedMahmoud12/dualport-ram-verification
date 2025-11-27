@@ -1,7 +1,7 @@
 # dualport-ram-verification
 
 A complete SystemVerilog, UVM, and Formal verification environment for a parameterizable **True Dual-Port SRAM (dp_ram)**.  
-This repository verifies the functional correctness, collision behavior, and protocol compliance of the dp_ram module as defined in the official functional specification (v1.2, 2023-10-27).
+This repository verifies the functional correctness, collision behavior, and protocol compliance of the dp_ram module as defined in the official functional specification.
 
 ---
 
@@ -19,7 +19,7 @@ The goal is to fully validate all spec-defined behaviors, including timing, rese
 
 ---
 
-## 📐 2. DUT Specifications (Extracted from Functional Specification v1.2)
+## 📐 2. DUT Specifications
 
 ### **Main Features**
 - True Dual-Port SRAM (TDP)
@@ -88,5 +88,3 @@ All spec requirements REQ-MEM-001 → REQ-MEM-006 must be fully verified.
 - read_valid protocol correctness  
 - Correct Read-First behavior in hazards  
 - Correct priority during write/write collisions  
-
---
